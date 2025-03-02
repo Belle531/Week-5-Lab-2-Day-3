@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Game</title>
+    <link rel="stylesheet" href="gmaetime.css">
+</head>
+<body>
+    <header>
+        <h1>🌿 Tu Es Belle (You Are Beautiful)🌿</h1>
+        <h2>Interactive Game</h2>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="bill.html">Calculate The Bill</a> |
+        <a href="gametime.html"class="active">Game Time</a> |
+    </nav>
+    <div class="main-container">
+        <div class="content">
+            <p id="paragraph">Welcome to our interactive page!</p>
+            <input type="text" id="playerOneName" placeholder="Player One Name">
+            <input type="number" id="playerOneScore" placeholder="Player One Score">
+            <input type="text" id="playerTwoName" placeholder="Player Two Name">
+            <input type="number" id="playerTwoScore" placeholder="Player Two Score">
+            <button id="changeStyleButton">Change Style</button>
+            <button id="promptButton">Prompt for Input</button>
+            <button id="calculateScoresButton">Calculate Scores</button>
+        </div>
+    </div>
+    <div class="instructions-container">
+        <h3>How to Play:</h3>
+        <ul>
+            <li>Enter the names of Player One and Player Two in the respective fields.</li>
+            <li>Enter the scores for both players in the respective fields.</li>
+            <li>Click the "Calculate Scores" button to see the percentage of the total score for each player.</li>
+            <li>Use the "Change Style" button to change the style of the welcome message.</li>
+            <li>Use the "Prompt for Input" button to enter your name and see a personalized welcome message.</li>
+        </ul>
+    </div>
+    <footer>
+        <p>© 2025 Cassandra Moore</p>
+    </footer>
+    <script src="gametime.js"></script>
+</body>
+</html>
